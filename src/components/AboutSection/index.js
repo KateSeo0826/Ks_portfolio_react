@@ -17,9 +17,9 @@ const AboutSection = () => {
         text: ['Hi!', "It's me Kate.", 'I am '],
         typical: [
             ' Web developer. 🖥',
-            2000,
+            4000,
             ' Mobile Developer. ',
-            2000,
+            4000,
         ],
     })
 

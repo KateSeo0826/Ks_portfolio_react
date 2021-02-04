@@ -32,6 +32,7 @@ export const SectionTitle = styled.h2`
         width: 64px;
         top: 4rem;
       }
+ 
   }
 `
 
@@ -87,5 +88,8 @@ export const Icons = styled.li`
      }
      @media screen and (max-width: 768px){
         font-size: .6rem;
+     }
+      @media screen and (min-width: 375px){
+        font-size: .2rem;
      }
 `
