@@ -1,0 +1,267 @@
+.mywork {
+  margin-top: 50px;
+  padding: 0 10rem;
+
+  .btns {
+    text-align: center;
+  }
+  button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 15px;
+    font-weight: 30px;
+    font-size: medium;
+    letter-spacing: 1px;
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--dark-color);
+
+    &::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 1px;
+      background: var(--first-color);
+      transition: width 0.3s;
+    }
+    &:hover::after {
+      width: 100%;
+      transition: width 0.3s;
+    }
+    @media screen and(max-width: 426px) {
+      font-size: 0.5rem;
+      padding: 0 5px;
+      letter-spacing: 0;
+    }
+  }
+  .title {
+    padding-bottom: 100px;
+    h1 {
+      text-align: center;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+    @media screen and (max-width: 426px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+  .box {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+
+    .imgbox {
+      display: block;
+      width: 180%;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.2s;
+      offset: none;
+    }
+    .overlay {
+      position: absolute;
+      transition: all 0.5s;
+      opacity: 0;
+      background-color: #bdccff;
+    }
+  }
+
+  .overlayTop {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 0);
+  }
+  .box:hover .overlayTop {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    height: 100%;
+    opacity: 1;
+  }
+  .overlayBottom {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 0 0, 0 100%);
+  }
+  .box:hover .overlayBottom {
+    clip-path: polygon(100% 100%, 100% 0, 0 0, 0 100%);
+    height: 100%;
+    opacity: 1;
+  }
+  .box:hover .text {
+    top: 50%;
+  }
+
+  .text {
+    color: var(--dark-color);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    align-items: center;
+    transition: all 0.5s;
+    h2 {
+      text-align: center;
+      font-size: 1.7rem;
+      margin-bottom: 30px;
+      font-weight: 500;
+      letter-spacing: 2px;
+    }
+    a {
+      text-decoration: none;
+      padding: 0 15px;
+    }
+    h5 {
+      letter-spacing: 3px;
+      font-weight: 300;
+      font-size: 1rem;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 1rem;
+      text-transform: uppercase;
+      color: black;
+      display: inline;
+      padding: 14px 30px;
+      box-shadow: 5px 5px 5px rgba(var(--dark-color), 0.15);
+      border-radius: 15px;
+      transition: all 0.5s ease;
+
+      &:hover {
+        background-color: white;
+        color: var(--first-color);
+        text-decoration: underline;
+      }
+    }
+  }
+  @media screen and(max-width: 1025px) {
+    .text {
+      h2 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+      }
+
+      h5 {
+        text-align: center;
+        font-size: 0.7rem;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+  @media screen and(max-width: 426px) {
+    .text {
+      h2 {
+        font-size: 0.7rem;
+        margin-bottom: 10px;
+      }
+
+      h5 {
+        text-align: start;
+        font-size: 0.5rem;
+      }
+      a {
+        padding: 0 5px;
+      }
+      p {
+        font-size: 10px;
+        padding: 7px 15px;
+      }
+    }
+  }
+  .description {
+    .name {
+      text-align: center;
+    }
+    .demo_code {
+      margin: auto;
+      text-align: center;
+    }
+  }
+  @media screen and(max-width: 769px) {
+    padding: 5rem 4rem;
+  }
+}
+.container_parent {
+  padding: 2rem;
+}
+.parent {
+  justify-content: center;
+  align-items: center;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+  width: 100%;
+  height: 500px;
+  margin: 20px;
+
+  &:hover {
+    box-shadow: none;
+  }
+  @media screen and(max-width: 426px) {
+    height: 150px;
+  }
+}
+.div1 {
+  grid-area: div1;
+  background-image: url("../../images/pics/personalBlog.png");
+  background-position: center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.div2 {
+  grid-area: div2;
+  background-image: url("../../images/pics/findaplace.png");
+  background-position: center;
+  background-size: cover;
+
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.div3 {
+  grid-area: div3;
+  background-image: url("../../images/pics/ks_kitchen.jpg");
+  background-position: center;
+  background-size: cover;
+
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.div4 {
+  grid-area: div4;
+  background-image: url("../../images/pics/cryptodash.png");
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.div5 {
+  grid-area: div5;
+  background-image: url("../../images/pics/weather.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.div6 {
+  grid-area: div6;
+  background-image: url("../../images/pics/img.png");
+  background-position: top;
+  background-size: cover;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
