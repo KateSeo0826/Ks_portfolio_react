@@ -7,10 +7,6 @@ export const SectionAbout = styled.section`
         padding-top: 4rem;
     }
 
-    @media screen and (min-width: 375px){
-        padding-top: 4rem;
-    
-    }
 `
 export const AboutTitleH2 = styled.h2`
     position: relative;
@@ -37,17 +33,7 @@ export const AboutTitleH2 = styled.h2`
         width: 64px;
         top: 4rem;
       }
-
-     }
-    @media screen and (min-width: 375px){
-        margin-bottom: 3rem;
-      &:after{
-        width: 64px;
-        top: 4rem;
-      }
-    
-    }
-  
+  }
 `
 export const AboutContainer = styled.div`
    justify-items: center;
@@ -73,12 +59,6 @@ export const AboutContainer = styled.div`
         margin-left: auto;
         margin-right: auto;
     }
-
-      @media screen and (min-width: 375px) {
-        grid-template-columns: repeat(2, 1fr);
-        align-items: ;
-        text-align: center;
-    }
 `
 
 export const AboutWrapper = styled.div`
@@ -94,9 +74,6 @@ export const AboutWrapper = styled.div`
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 10px;
-       @media screen and (min-width: 375px) {
-     
-    }
 
 `
 
@@ -147,11 +124,6 @@ export const SocialIcons = styled.div`
     &::hover {
         color: var(--first-color);
     }
-     @media screen and (min-width: 375px) {
-         display: flex;
-         justify-content: flex-start;
-         margin-left: -150px;
-    }
 `
 export const SocialIconLink = styled.a`
     width: 40px;
@@ -178,7 +150,6 @@ export const SocialIconLink = styled.a`
         align-items: center;
         justify-content: center
     }
-   
 `
 export const ResumeWrap = styled.a`
     text-decoration: none;
@@ -221,11 +192,5 @@ export const Button = styled.button`
        display: inline-flex; 
        position: absolute;
        margin-left: 170px;
-    }
-
-     @media screen and (min-width: 375px) {
-       display: inline-flex; 
-       position: absolute;
-       margin: 0px;
     }
 `
