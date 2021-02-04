@@ -1,9 +1,9 @@
 
 import React, { Component } from 'react';
 import blog from '../../images/pics/personalBlog.png';
-import findaplace from '../../images/pics/findaplace.png';
+// import findaplace from '../../images/pics/findaplace.png';
 import ks_kitchen from '../../images/pics/ks_kitchen.jpg';
-import cryptodash from '../../images/pics/cryptodash.png';
+// import cryptodash from '../../images/pics/cryptodash.png';
 import weather from '../../images/pics/weather.png';
 import Portfolio from './Portfolio';
 import './MyWorks.scss';
