@@ -53,7 +53,7 @@ export class MyWorks extends Component {
                 "title": "Personal Blog",
                 "type": "Web Application",
                 "img": { blog },
-                "demo": "https://www.devkate.com/",
+                "demo": "https://kateblog.netlify.app/home",
                 "code": "https://github.com/KateSeo0826/kateblog",
                 "class": "overlayTop"
 
