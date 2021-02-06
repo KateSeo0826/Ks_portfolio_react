@@ -73,7 +73,7 @@ export class MyWorks extends Component {
                 "title": "KS Kitchen",
                 "type": "E-commerce",
                 "img": { ks_kitchen },
-                "demo": "https://nsbike.netlify.com",
+                "demo": "https://kskitchen.netlify.app",
                 "code": "https://github.com/KateSeo0826/Ks_Kitchen",
                 "class": "overlayTop"
 
