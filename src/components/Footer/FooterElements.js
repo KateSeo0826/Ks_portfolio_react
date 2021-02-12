@@ -25,7 +25,6 @@ export const FooterContainer = styled.div`
     @media screen and (min-width: 1024px){
         margin-left: auto;
         margin-right: auto;
-        
     }
 `
 export const FooterWrap = styled.div`

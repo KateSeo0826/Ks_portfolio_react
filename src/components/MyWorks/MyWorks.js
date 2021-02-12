@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import blog from '../../images/pics/personalBlog.png';
-// import findaplace from '../../images/pics/findaplace.png';
+import trello from '../../images/pics/trello.jpg';
 import ks_kitchen from '../../images/pics/ks_kitchen.jpg';
 // import cryptodash from '../../images/pics/cryptodash.png';
 import weather from '../../images/pics/weather.png';
@@ -58,16 +58,16 @@ export class MyWorks extends Component {
                 "class": "overlayTop"
 
             },
-            // {
-            //     "id": "2",
-            //     "title": "Findaplace",
-            //     "type": "E-commerce",
-            //     "img": { findaplace },
-            //     "demo": "https://findaplace.netlify.com",
-            //     "code": "https://github.com/Neallee0213/findaplace",
-            //     "class": "overlayBottom"
+            {
+                "id": "2",
+                "title": "Trello",
+                "type": "Web Application",
+                "img": { trello },
+                "demo": "https://kstrello.netlify.app",
+                "code": "https://github.com/KateSeo0826/trello_react",
+                "class": "overlayBottom"
 
-            // },
+            },
             {
                 "id": "3",
                 "title": "KS Kitchen",
