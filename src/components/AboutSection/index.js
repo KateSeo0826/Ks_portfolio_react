@@ -12,7 +12,7 @@ const AboutSection = () => {
         title: 'About',
         topLine: 'I am Kate Seo',
         //headline: 'Web Developer',
-        description: '  I am a widely skiled creative with a passion for web developement and technology. I love learning, and want to become the best developer I can be. As a developer, I believe that ideas come first, tools come second - having defined a goal. I will find a way and will persist until I reach it..',
+        description: 'I am a widely skilled creative with a passion for web development and technology. I love learning, and want to become the best developer I can be.',
         img: require('../../images/kate2.png').default,
         text: ['Hi!', "It's me Kate.", 'I am '],
         typical: [

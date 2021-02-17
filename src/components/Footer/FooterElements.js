@@ -20,6 +20,7 @@ export const FooterContainer = styled.div`
      @media screen and (min-width: 768px) {
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
+        padding-left: 25rem;
     }
 
     @media screen and (min-width: 1024px){
@@ -93,7 +94,7 @@ export const FooterLink = styled(LinkS)`
 
 export const WebsiteRights = styled.small`
     margin-bottom: 0px;
-      margin-left: -155px;
+    margin-left: -150px
 `
 
 
@@ -101,6 +102,7 @@ export const SocialIcons = styled.div`
     font-size: 1.4rem;
     margin: 0 var(--mb-1);
     text-align: center;
+    
     &::hover {
         color: var(--first-color);
     }
@@ -119,6 +121,7 @@ export const SocialIconLink = styled.a`
     font-size: 25px;
     transition: all 0.5s linear;
     color: var(--text-color);
+    
     cursor: pointer;
          &:hover{
         background: var(--first-color);
