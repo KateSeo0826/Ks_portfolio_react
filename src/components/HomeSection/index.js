@@ -8,8 +8,8 @@ const HomeSection = () => {
     return (
         <SectionHome id='home' >
             <HomeContainer>
-                <HomeTitleH1>He</HomeTitleH1>
-                <HomeTitleSpan>LLO.</HomeTitleSpan>
+                <HomeTitleH1>De</HomeTitleH1>
+                <HomeTitleSpan>REM.</HomeTitleSpan>
                 <HomeScroll>
                     <ArrowDown to='about' >  Scroll Down  </ArrowDown>
                 </HomeScroll>

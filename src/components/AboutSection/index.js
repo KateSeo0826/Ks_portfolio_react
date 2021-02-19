@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import { AboutTitleH2, SectionAbout, AboutContainer, ResumeWrap, Button, AboutWrapper, TextWrapper, Subtitle, AboutText, Heading, ImgWrap, Img, SocialIcons, SocialIconLink } from './AboutElements';
-import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import Slide from 'react-reveal/Slide';
 import Typical from 'react-typical';
-import resume from '../../docs/KATE SEO_resume.pdf'
+import resume from '../../docs/KATE SEO_resume.pdf';
 const AboutSection = () => {
 
     const [state] = React.useState({
@@ -12,7 +12,7 @@ const AboutSection = () => {
         title: 'About',
         topLine: 'I am Kate Seo',
         //headline: 'Web Developer',
-        description: 'I am a widely skilled creative with a passion for web development and technology. I love learning, and want to become the best developer I can be.',
+        description: 'I am a widely skilled and creative web developer. I am particularly passionate about web development and technology. I have a growth mindset and love to learn. I persistently put in the time and effort to improve myself. I want to become the best developer I can be.',
         img: require('../../images/kate2.png').default,
         text: ['Hi!', "It's me Kate.", 'I am '],
         typical: [
@@ -34,7 +34,7 @@ const AboutSection = () => {
                             <Img src={state.img} />
                         </ImgWrap>
                         {/* <SocialIcons>
-                            <SocialIconLink href='https://github.com/dsseo0826' target='_blank' aria-label='Facebook'>
+                            <SocialIconLink href='https://github.com/KateSeo0826' target='_blank' aria-label='Facebook'>
                                 <FaGithub />
                             </SocialIconLink>
                             <SocialIconLink href='https://www.instagram.com/violetds3' target='_blank' aria-label='Instagram'>
@@ -56,7 +56,7 @@ const AboutSection = () => {
                                 <AboutText>{state.description}</AboutText>
                             </TextWrapper>
                             <SocialIcons>
-                                <SocialIconLink href='https://github.com/dsseo0826' target='_blank' aria-label='Facebook'>
+                                <SocialIconLink href='https://github.com/KateSeo0826' target='_blank' aria-label='Facebook'>
                                     <FaGithub />
                                 </SocialIconLink>
                                 <SocialIconLink href='https://www.instagram.com/violetds3' target='_blank' aria-label='Instagram'>
