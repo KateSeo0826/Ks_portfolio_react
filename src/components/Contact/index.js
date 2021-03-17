@@ -3,7 +3,6 @@ import { ContactSection, ContactTitle, ContactContainer, ContactInfo, ContactSub
     from './ContactElements'
 function Contact() {
     return (
-
         <>
             <ContactSection id='contact'>
                 <ContactTitle>Contact</ContactTitle>
