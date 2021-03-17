@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { ContactSection, ContactTitle, ContactContainer, ContactInfo, ContactSubtitleH3, ContactText, FormBox, ContactInputs, FormLabel, FormInput, FormButton, TextArea }
     from './ContactElements'
 function Contact() {
@@ -18,9 +18,14 @@ function Contact() {
                             method='post'
                             action='/home/?success=true'
                             data-netlify='true'
-                            onSubmit='submit'>
+                            onSubmit='submit'
+                            data-netlify-honeypot='bot-field'>
                             <ContactInputs type='hidden' name='form-name' value='contact'>
                                 <input type='hidden' name='form-name' value='contact' />
+
+                                <div hidden>
+                                    <input name='bot-field' />
+                                </div>
                                 <FormInput
                                     type='text'
                                     name='name'
