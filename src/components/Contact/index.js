@@ -17,11 +17,10 @@ const Contact = () => {
                         method='post'
                         data-netlify='ture'
                         onSubmit='submit'>
-                        <ContactInputs>
+                        <ContactInputs type='hidden' name='form-name' value='contact'>
                             <FormInput
                                 type='text'
                                 name='form-name'
-                                value='contact'
                                 require placeholder='Name'
                                 onSubmit='submit' />
                             <FormInput
