@@ -2,22 +2,11 @@ import React, { useState, useEffect } from 'react'
 import { ContactSection, ContactTitle, ContactContainer, ContactInfo, ContactSubtitleH3, ContactText, FormBox, ContactInputs, FormLabel, FormInput, FormButton, TextArea }
     from './ContactElements'
 function Contact() {
-
-    const [success, setSuccess] = useState(false);
-
-    useEffect(() => {
-        if (window.location.search.includes('success=true')) {
-            setSuccess(true);
-        }
-    }, []);
     return (
 
         <>
             <ContactSection id='contact'>
                 <ContactTitle>Contact</ContactTitle>
-                {success && (
-                    <p style={{ color: 'yellowgreen' }}>Thanks for your message!</p>
-                )}
                 <ContactContainer>
                     <ContactInfo>
                         <ContactSubtitleH3>Email</ContactSubtitleH3>
