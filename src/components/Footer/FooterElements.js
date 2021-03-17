@@ -75,7 +75,8 @@ export const FooterLinkTitle = styled.h2`
 export const SocialTitle = styled.h2`
     font-size: var(--normal-font-size);
     color: var(--first-color);
-    margin-left: -75px; 
+    margin-left: -170px; 
+    margin-bottom: 0.4rem;
 `
 export const FooterLink = styled(LinkS)`
     display: flex;
@@ -117,10 +118,10 @@ export const SocialIconLink = styled.a`
     display: inline-block;
     align-items: center;
     justify-content: center;
-    margin: 0 10px;
     font-size: 25px;
     transition: all 0.5s linear;
     color: var(--text-color);
+    margin-left: -110px;
     
     cursor: pointer;
          &:hover{

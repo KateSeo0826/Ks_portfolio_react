@@ -15,7 +15,6 @@ function Contact() {
                         <form
                             name='contact'
                             method='post'
-                            action='/home/?success=true'
                             data-netlify='true'
                             onSubmit='submit'
                             data-netlify-honeypot='bot-field'>
