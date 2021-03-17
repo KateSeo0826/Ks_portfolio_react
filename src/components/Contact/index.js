@@ -16,7 +16,7 @@ function Contact() {
             <ContactSection id='contact'>
                 <ContactTitle>Contact</ContactTitle>
                 {success && (
-                    <p style={{ color: 'yellowgreen' }} >Thanks for your message!</p>
+                    <p style={{ color: 'yellowgreen' }}>Thanks for your message!</p>
                 )}
                 <ContactContainer>
                     <ContactInfo>
@@ -27,7 +27,7 @@ function Contact() {
                         <form
                             name='contact'
                             method='post'
-                            action='/contact/?success=true'
+                            action='/home/?success=true'
                             data-netlify='true'
                             onSubmit='submit'>
                             <ContactInputs type='hidden' name='form-name' value='contact'>
