@@ -12,7 +12,7 @@ const Contact = () => {
                         <ContactText>dev.kateseo@gmail.com</ContactText>
                     </ContactInfo>
 
-                    <Form action='#'
+                    <form action='#'
                         name='contact'
                         method='post'
                         data-netlify='ture'
@@ -33,7 +33,7 @@ const Contact = () => {
                         <FormLabel htmlFor='for'>Text</FormLabel>
                         <TextArea type='text' />
                         <FormButton type='submit'>Submit</FormButton>
-                    </Form>
+                    </form>
                 </ContactContainer>
             </ContactSection>
         </>
