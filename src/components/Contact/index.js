@@ -12,10 +12,23 @@ const Contact = () => {
                         <ContactText>dev.kateseo@gmail.com</ContactText>
                     </ContactInfo>
 
-                    <Form action='#'>
+                    <Form action='#'
+                        name='contact'
+                        method='post'
+                        data-netlify='ture'
+                        onSubmit='submit'>
                         <ContactInputs>
-                            <FormInput type='name' require placeholder='Name' />
-                            <FormInput type='email' require placeholder='Email' />
+                            <FormInput
+                                type='text'
+                                name='form-name'
+                                value='contact'
+                                require placeholder='Name'
+                                onSubmit='submit' />
+                            <FormInput
+                                id='email'
+                                name='email'
+                                type='email'
+                                require placeholder='Email' />
                         </ContactInputs>
                         <FormLabel htmlFor='for'>Text</FormLabel>
                         <TextArea type='text' />
