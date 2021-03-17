@@ -74,7 +74,7 @@ export const ContactInfo = styled.div`
 
    
 `
-export const Form = styled.form`
+export const FormBox = styled.form`
 
   @media screen and (min-width: 768px){
         width: 380px;
