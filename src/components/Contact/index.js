@@ -9,7 +9,7 @@ const Contact = () => {
                 <ContactContainer>
                     <ContactInfo>
                         <ContactSubtitleH3>Email</ContactSubtitleH3>
-                        <ContactText>dev.kateseo@gamil.com</ContactText>
+                        <ContactText>dev.kateseo@gmail.com</ContactText>
                     </ContactInfo>
 
                     <Form action='#'>
