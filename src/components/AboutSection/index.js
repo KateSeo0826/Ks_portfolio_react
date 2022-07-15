@@ -3,11 +3,10 @@ import { AboutTitleH2, SectionAbout, AboutContainer, ResumeWrap, Button, AboutWr
 import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import Slide from 'react-reveal/Slide';
 import Typical from 'react-typical';
-import resume from '../../docs/KATE SEO_resume.pdf';
+import resume from '../../docs/Resume_DongSeon(Kate) Seo.pdf';
 const AboutSection = () => {
 
     const [state] = React.useState({
-
         id: 'about',
         title: 'About',
         topLine: 'I am Kate Seo',
@@ -22,8 +21,6 @@ const AboutSection = () => {
             4000,
         ],
     })
-
-
     return (
         <>
             <Slide left>
@@ -33,17 +30,6 @@ const AboutSection = () => {
                         <ImgWrap>
                             <Img src={state.img} />
                         </ImgWrap>
-                        {/* <SocialIcons>
-                            <SocialIconLink href='https://github.com/KateSeo0826' target='_blank' aria-label='Facebook'>
-                                <FaGithub />
-                            </SocialIconLink>
-                            <SocialIconLink href='https://www.instagram.com/violetds3' target='_blank' aria-label='Instagram'>
-                                <FaInstagram />
-                            </SocialIconLink>
-                            <SocialIconLink href='http://www.linkedin.com/in/devkateseo' target='_blank' aria-label='Linkedin'>
-                                <FaLinkedin />
-                            </SocialIconLink>
-                        </SocialIcons> */}
                         <AboutWrapper>
                             <TextWrapper>
                                 <Subtitle> {state.text[0]} {' '} {state.text[1]} </Subtitle>

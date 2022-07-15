@@ -20,7 +20,6 @@ function Contact() {
                             data-netlify-honeypot='bot-field'>
                             <ContactInputs type='hidden' name='form-name' value='contact'>
                                 <input type='hidden' name='form-name' value='contact' />
-
                                 <div hidden>
                                     <input name='bot-field' />
                                 </div>
@@ -46,4 +45,4 @@ function Contact() {
     )
 }
 
-export default Contact;
+export default Contact

@@ -1,15 +1,14 @@
 
-import React, { Component } from 'react';
-import blog from '../../images/pics/personalBlog.png';
-import trello from '../../images/pics/trello.jpg';
-import ks_kitchen from '../../images/pics/ks_kitchen.jpg';
-import weather from '../../images/pics/weather.jpg';
-import Portfolio from './Portfolio';
+import React, { Component } from 'react'
+import blog from '../../images/pics/personalBlog.png'
+import trello from '../../images/pics/trello.jpg'
+import ks_kitchen from '../../images/pics/ks_kitchen.jpg'
+import weather from '../../images/pics/weather.jpg'
+import expenseTracker from '../../images/pics/expenseTracker.jpg'
+import Portfolio from './Portfolio'
 import './MyWorks.scss';
-import styled from 'styled-components';
-import Fade from 'react-reveal/Fade';
-
-
+import styled from 'styled-components'
+import Fade from 'react-reveal/Fade'
 
 const Title = styled.h2`
     position: relative;
@@ -40,7 +39,6 @@ const Title = styled.h2`
   }
     `
 export class MyWorks extends Component {
-
     state = {
         loading: true,
         filterMatches: [],
@@ -75,18 +73,16 @@ export class MyWorks extends Component {
                 "demo": "https://kskitchen.netlify.app",
                 "code": "https://github.com/KateSeo0826/Ks_Kitchen",
                 "class": "overlayTop"
-
             },
-            // {
-            //     "id": "4",
-            //     "title": "Cryptocurrency App",
-            //     "type": "Web Application",
-            //     "img": { cryptodash },
-            //     "demo": "https://confident-elion-a450d6.netlify.com",
-            //     "code": "https://github.com/Neallee0213/cryptodash",
-            //     "class": "overlayBottom"
-
-            // },
+            {
+                "id": "4",
+                "title": "ExpenseTracker App",
+                "type": "Web Application",
+                "img": { expenseTracker },
+                "demo": "https://money-tracker-855ec.web.app/login",
+                "code": "https://github.com/KateSeo0826/expense-tracker",
+                "class": "overlayBottom"
+            },
             {
                 "id": "5",
                 "title": "Weather App",
@@ -95,12 +91,8 @@ export class MyWorks extends Component {
                 "demo": "https://weather16days.netlify.app/",
                 "code": "https://github.com/KateSeo0826/weatherapp_16days",
                 "class": "overlayTop"
-
             },
-
         ]
-
-
     }
     componentWillMount() {
         this.setState({
@@ -115,26 +107,23 @@ export class MyWorks extends Component {
 
         this.setState({
             filterMatches: types === 'All' ? this.state.projects : list,
-
         })
 
     }
     render() {
-
         return (
             <div className="mywork section-tours" id='portfolio'>
                 <div className="container">
-
                     <div className="row">
                         <div className="col title">
-                            <Title>My Portfolio </Title>
+                            <Title>My Portfolio</Title>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-12 btns">
                             <button onClick={() => this.showProject('All')}>All</button>
                             <button onClick={() => this.showProject('E-commerce')}>E-commerce</button>
-                            <button onClick={() => this.showProject('Web Application')}>Web appication</button>
+                            <button onClick={() => this.showProject('Web Application')}>Web application</button>
                         </div>
                     </div>
                 </div>

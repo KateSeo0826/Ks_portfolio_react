@@ -11,18 +11,15 @@ export class Portfolio extends Component {
             projectList: props.filterMatches
         }
     }
-
     ShowProjects = () => (
         this.state.projectList ?
             <NodeGroup
                 data={this.state.projectList}
                 keyAccessor={(d) => d.id}
-
                 start={() => ({
                     opacity: 0,
                     y: 100
                 })}
-
                 enter={(d, i) => ({
                     opacity: [1],
                     y: [0],
@@ -43,7 +40,6 @@ export class Portfolio extends Component {
                     <>
                         {nodes.map(({ key, data, state: { y, opacity } }) => (
                             <div key={key}
-
                                 className={`div${data.id} box col-12`}
                                 style={{
                                     opacity,
@@ -71,10 +67,8 @@ export class Portfolio extends Component {
             : null
     )
     render() {
-
-
         return (
-            <div className="container-fluid container_parent">
+            <div>
                 <div className="parent row box_row">
                     {this.ShowProjects()}
                 </div>
@@ -83,4 +77,4 @@ export class Portfolio extends Component {
     }
 }
 
-export default Portfolio;
+export default Portfolio

@@ -20,6 +20,7 @@ const SkillSection = () => {
                         <SectionIconsWrap>
                             <Icons ><FiHash />Node.js</Icons>
                             <Icons ><FiHash />MongoDB</Icons>
+                            <Icons ><FiHash />Firebase</Icons>
                             <Icons ><FiHash />MySQL</Icons>
                             <Icons ><FiHash />Github</Icons>
                         </SectionIconsWrap>

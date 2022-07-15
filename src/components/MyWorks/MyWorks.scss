@@ -162,7 +162,6 @@
         font-size: 0.7rem;
         margin-bottom: 10px;
       }
-
       h5 {
         text-align: start;
         font-size: 0.5rem;
@@ -219,7 +218,6 @@
   background-image: url("../../images/pics/personalBlog.png");
   background-position: center;
   background-size: cover;
-
   background-repeat: no-repeat;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
@@ -229,7 +227,7 @@
   background-image: url("../../images/pics/trello.jpg");
   background-position: center;
   background-size: cover;
-
+  background-repeat: no-repeat;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -238,30 +236,23 @@
   background-image: url("../../images/pics/ks_kitchen.jpg");
   background-position: center;
   background-size: cover;
-
+  background-repeat: no-repeat;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-// .div4 {
-//   grid-area: div4;
-//   background-image: url("../../images/pics/cryptodash.png");
-//   background-position: center;
-//   background-size: cover;
-//   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-// }
-
-.div5 {
-  grid-area: div5;
-  background-image: url("../../images/pics/weather.jpg");
+.div4 {
+  grid-area: div4;
+  background-image: url("../../images/pics/expenseTracker.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-// .div6 {
-//   grid-area: div6;
-//   background-image: url("../../images/pics/img.png");
-//   background-position: top;
-//   background-size: cover;
-//   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-// }
+.div5 {
+  grid-area: div5;
+  background-image: url("../../images/pics/weather.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
