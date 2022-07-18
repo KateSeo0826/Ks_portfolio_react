@@ -37,6 +37,7 @@ export const AboutTitleH2 = styled.h2`
 `
 export const AboutContainer = styled.div`
    justify-items: center;
+   margin-top: 2rem;
    row-gap: 2rem;
    text-align: center;
 
@@ -50,7 +51,7 @@ export const AboutContainer = styled.div`
     margin-right: var(--mb-2);
 
     @media screen and (max-width: 768px) {
-        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2rem;
         align-items: center;
         text-align: initial;
     }
@@ -76,7 +77,6 @@ export const TextWrapper = styled.div`
     padding-top: 10px;
 
 `
-
 export const Heading = styled.h3`
     display: block;
     margin-bottom: var(--mb-4);
@@ -147,8 +147,6 @@ export const SocialIconLink = styled.a`
         height: 30px; 
         display: inline-flex;
         font-size: 20px;
-        align-items: center;
-        justify-content: center
     }
 `
 export const ResumeWrap = styled.a`
@@ -189,8 +187,5 @@ export const Button = styled.button`
     }
 
     @media screen and (max-width: 768px) {
-       display: inline-flex; 
-       position: absolute;
-       margin-left: 170px;
     }
 `
