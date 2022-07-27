@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react'
 import blog from '../../images/pics/personalBlog.png'
+import shopping from '../../images/pics/shopping-website.jpg'
 import trello from '../../images/pics/trello.jpg'
 import ks_kitchen from '../../images/pics/ks_kitchen.jpg'
 import weather from '../../images/pics/weather.jpg'
@@ -47,13 +48,12 @@ export class MyWorks extends Component {
         projects: [
             {
                 "id": "1",
-                "title": "Personal Blog",
-                "type": "Web Application",
-                "img": { blog },
-                "demo": "https://kateblog.netlify.app/home",
-                "code": "https://github.com/KateSeo0826/kateblog",
+                "title": "Shopping App",
+                "type": "E-commerce",
+                "img": { shopping },
+                "demo": "https://shopping--ecommerce.herokuapp.com/",
+                "code": "https://github.com/KateSeo0826/shopping-ecommerce",
                 "class": "overlayTop"
-
             },
             {
                 "id": "2",
@@ -91,6 +91,16 @@ export class MyWorks extends Component {
                 "demo": "https://weather16days.netlify.app/",
                 "code": "https://github.com/KateSeo0826/weatherapp_16days",
                 "class": "overlayTop"
+            },
+            {
+                "id": "6",
+                "title": "Personal Blog",
+                "type": "Web Application",
+                "img": { blog },
+                "demo": "https://kateblog.netlify.app/home",
+                "code": "https://github.com/KateSeo0826/kateblog",
+                "class": "overlayBottom"
+
             },
         ]
     }

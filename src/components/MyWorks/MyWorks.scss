@@ -213,15 +213,16 @@
     height: 150px;
   }
 }
+
+
 .div1 {
   grid-area: div1;
-  background-image: url("../../images/pics/personalBlog.png");
+  background-image: url("../../images/pics/shopping-website.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
-
 .div2 {
   grid-area: div2;
   background-image: url("../../images/pics/trello.jpg");
@@ -251,6 +252,15 @@
 .div5 {
   grid-area: div5;
   background-image: url("../../images/pics/weather.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.div6 {
+  grid-area: div6;
+  background-image: url("../../images/pics/personalBlog.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
