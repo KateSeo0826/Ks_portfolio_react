@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const SectionAbout = styled.section`
  padding: 3rem 0;
 @media screen and (min-width: 768px){

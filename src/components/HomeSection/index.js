@@ -1,7 +1,7 @@
 import React from 'react'
 import { SectionHome, HomeContainer, HomeTitleH1, HomeTitleSpan, ArrowDown, HomeScroll, HomeIcon, ImageSection } from './HomeElements';
 import { FaArrowDown } from 'react-icons/fa';
-import img from '../../images/kate2.png';
+// import img from '../../images/kate2.png';
 const HomeSection = () => {
     return (
         <SectionHome id='home' >
@@ -14,7 +14,7 @@ const HomeSection = () => {
                 <HomeIcon>
                     < FaArrowDown />
                 </HomeIcon>
-                <ImageSection src={img} />
+                {/* <ImageSection src={img} /> */}
             </HomeContainer >
         </SectionHome>
     )
