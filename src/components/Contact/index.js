@@ -17,17 +17,17 @@ function Contact() {
                             method='post'
                             data-netlify='true'
                             onSubmit='submit'
-                            data-netlify-honeypot='bot-field'>
+                        >
+
                             <ContactInputs type='hidden' name='form-name' value='contact'>
                                 <input type='hidden' name='form-name' value='contact' />
-                                <div hidden>
-                                    <input name='bot-field' />
-                                </div>
                                 <FormInput
+                                    required
                                     type='text'
                                     name='name'
                                     require placeholder='Name' />
                                 <FormInput
+                                    required
                                     id='email'
                                     name='email'
                                     type='email'
