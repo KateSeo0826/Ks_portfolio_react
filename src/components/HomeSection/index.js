@@ -1,5 +1,5 @@
 import React from 'react'
-import { SectionHome, HomeContainer, HomeTitleH1, HomeTitleSpan, ArrowDown, HomeScroll, HomeIcon, ImageSection } from './HomeElements';
+import { SectionHome, HomeContainer, HomeTitleH1, HomeTitleSpan, ArrowDown, HomeScroll, HomeIcon } from './HomeElements';
 import { FaArrowDown } from 'react-icons/fa';
 // import img from '../../images/kate2.png';
 const HomeSection = () => {

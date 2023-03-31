@@ -2,10 +2,12 @@
 import React, { Component } from 'react'
 import blog from '../../images/pics/personalBlog.png'
 import shopping from '../../images/pics/shopping-website.jpg'
+import shop_react from '../../images/pics/shopping_react.png'
 import trello from '../../images/pics/trello.jpg'
 import ks_kitchen from '../../images/pics/ks_kitchen.jpg'
 import weather from '../../images/pics/weather.jpg'
 import expenseTracker from '../../images/pics/expenseTracker.jpg'
+
 import Portfolio from './Portfolio'
 import './MyWorks.scss';
 import styled from 'styled-components'
@@ -50,9 +52,9 @@ export class MyWorks extends Component {
                 "id": "1",
                 "title": "Shopping App",
                 "type": "E-commerce",
-                "img": { shopping },
-                "demo": "https://shopping--ecommerce.herokuapp.com/",
-                "code": "https://github.com/KateSeo0826/shopping-ecommerce",
+                "img": { shop_react },
+                "demo": "https://kateshop.netlify.app/",
+                "code": "https://github.com/KateSeo0826/shopping-cart-react",
                 "class": "overlayTop"
             },
             {
@@ -67,39 +69,48 @@ export class MyWorks extends Component {
             },
             {
                 "id": "3",
+                "title": "Shopping App",
+                "type": "E-commerce",
+                "img": { shopping },
+                "demo": "https://shopping--ecommerce.herokuapp.com/",
+                "code": "https://github.com/KateSeo0826/shopping-ecommerce",
+                "class": "overlayTop"
+            },
+            {
+                "id": "4",
                 "title": "KS Kitchen",
                 "type": "E-commerce",
                 "img": { ks_kitchen },
                 "demo": "https://kskitchen.netlify.app",
                 "code": "https://github.com/KateSeo0826/Ks_Kitchen",
-                "class": "overlayTop"
+                "class": "overlayBottom"
             },
             {
-                "id": "4",
+                "id": "5",
                 "title": "ExpenseTracker App",
                 "type": "Web Application",
                 "img": { expenseTracker },
                 "demo": "https://money-tracker-855ec.web.app/login",
                 "code": "https://github.com/KateSeo0826/expense-tracker",
-                "class": "overlayBottom"
+                "class": "overlayTop"
             },
             {
-                "id": "5",
+                "id": "6",
                 "title": "Weather App",
                 "type": "Web Application",
                 "img": { weather },
                 "demo": "https://weather16days.netlify.app/",
                 "code": "https://github.com/KateSeo0826/weatherapp_16days",
-                "class": "overlayTop"
+                "class": "overlayBottom"
             },
             {
-                "id": "6",
+                "id": "7",
                 "title": "Personal Blog",
                 "type": "Web Application",
                 "img": { blog },
                 "demo": "https://kateblog.netlify.app/home",
                 "code": "https://github.com/KateSeo0826/kateblog",
-                "class": "overlayBottom"
+                "class": "overlayTop"
 
             },
         ]

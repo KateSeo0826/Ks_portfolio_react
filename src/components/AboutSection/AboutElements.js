@@ -5,7 +5,6 @@ export const SectionAbout = styled.section`
 @media screen and (min-width: 768px){
         padding-top: 4rem;
     }
-
 `
 export const AboutTitleH2 = styled.h2`
     position: relative;
