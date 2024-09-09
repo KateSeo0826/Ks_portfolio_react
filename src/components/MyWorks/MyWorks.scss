@@ -202,7 +202,7 @@
 .div4,
 .div5,
 .div6,
-.div7{
+.div7 {
   width: 100%;
   height: 500px;
   margin: 20px;
@@ -215,7 +215,6 @@
   }
 }
 
-
 .div1 {
   grid-area: div1;
   background-image: url("../../images/pics/shopping_react.png");
@@ -227,7 +226,7 @@
 
 .div2 {
   grid-area: div2;
-  background-image: url("../../images/pics/trello.jpg");
+  background-image: url("../../images/pics/expenseTracker.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -236,7 +235,7 @@
 
 .div3 {
   grid-area: div3;
-  background-image: url("../../images/pics/shopping-website.jpg");
+  background-image: url("../../images/pics/ks_kitchen.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -245,7 +244,7 @@
 
 .div4 {
   grid-area: div4;
-  background-image: url("../../images/pics/ks_kitchen.jpg");
+  background-image: url("../../images/pics/weather.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -254,7 +253,7 @@
 
 .div5 {
   grid-area: div5;
-  background-image: url("../../images/pics/expenseTracker.jpg");
+  background-image: url("../../images/pics/trello.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
@@ -262,7 +261,7 @@
 
 .div6 {
   grid-area: div6;
-  background-image: url("../../images/pics/weather.jpg");
+  background-image: url("../../images/pics/shopping-website.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

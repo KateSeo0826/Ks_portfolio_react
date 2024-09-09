@@ -59,6 +59,33 @@ export class MyWorks extends Component {
             },
             {
                 "id": "2",
+                "title": "ExpenseTracker App",
+                "type": "Web Application",
+                "img": { expenseTracker },
+                "demo": "https://money-tracker-855ec.web.app/login",
+                "code": "https://github.com/KateSeo0826/expense-tracker",
+                "class": "overlayTop"
+            },
+            {
+                "id": "3",
+                "title": "KS Kitchen",
+                "type": "E-commerce",
+                "img": { ks_kitchen },
+                "demo": "https://kskitchen.netlify.app",
+                "code": "https://github.com/KateSeo0826/Ks_Kitchen",
+                "class": "overlayBottom"
+            },
+            {
+                "id": "4",
+                "title": "Weather App",
+                "type": "Web Application",
+                "img": { weather },
+                "demo": "https://weather16days.netlify.app/",
+                "code": "https://github.com/KateSeo0826/weatherapp_16days",
+                "class": "overlayBottom"
+            },
+            {
+                "id": "5",
                 "title": "Trello",
                 "type": "Web Application",
                 "img": { trello },
@@ -68,40 +95,13 @@ export class MyWorks extends Component {
 
             },
             {
-                "id": "3",
+                "id": "6",
                 "title": "Shopping App",
                 "type": "E-commerce",
                 "img": { shopping },
                 "demo": "https://shopping--ecommerce.herokuapp.com/",
                 "code": "https://github.com/KateSeo0826/shopping-ecommerce",
                 "class": "overlayTop"
-            },
-            {
-                "id": "4",
-                "title": "KS Kitchen",
-                "type": "E-commerce",
-                "img": { ks_kitchen },
-                "demo": "https://kskitchen.netlify.app",
-                "code": "https://github.com/KateSeo0826/Ks_Kitchen",
-                "class": "overlayBottom"
-            },
-            {
-                "id": "5",
-                "title": "ExpenseTracker App",
-                "type": "Web Application",
-                "img": { expenseTracker },
-                "demo": "https://money-tracker-855ec.web.app/login",
-                "code": "https://github.com/KateSeo0826/expense-tracker",
-                "class": "overlayTop"
-            },
-            {
-                "id": "6",
-                "title": "Weather App",
-                "type": "Web Application",
-                "img": { weather },
-                "demo": "https://weather16days.netlify.app/",
-                "code": "https://github.com/KateSeo0826/weatherapp_16days",
-                "class": "overlayBottom"
             },
             {
                 "id": "7",
