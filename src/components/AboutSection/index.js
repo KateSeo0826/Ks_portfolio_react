@@ -3,7 +3,7 @@ import { AboutTitleH2, SectionAbout, AboutContainer, ResumeWrap, Button, AboutWr
 import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import Slide from 'react-reveal/Slide';
 import Typical from 'react-typical';
-import resume from '../../docs/Resume_DongSeon(Kate) Seo.pdf';
+import resume from '../../docs/DongSeon(Kate)_Resume.pdf';
 const AboutSection = () => {
 
     const [state] = React.useState({
